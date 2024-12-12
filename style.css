@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --primary-color:#000000;
+    --secondary-color:#ffffff;
+    --grey:#878585;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 109px;
+    font-family: 'Mulish', sans-serif;
+    background-color: #ffffff;
+}
+
+h1,h3 {
+    font-family: 'Mulish', serif;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin: 1.6rem 0;
+}
+
+.navbar-brand,.nav-item {
+    font-family: 'Mulish', serif;
+    font-weight: 800;
+
+}
+
+p {
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 1.6rem 0;
+    font-size: 1.6rem;
+    color: var(--primary-color)
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 890px){
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+
+h3 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.ny {
+    color: rgb(0, 0, 0);
+
+}
+
+span {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    margin: 1.6rem 0;
+    color: var(--grey);
+    font-size: 1.6rem;
+    border-bottom: 2px dotted var(--primary-color);
+}
+
+.site-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal-img {
+    max-width: 120%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.c-item {
+    height: 480px;
+
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+hr {
+    margin: 16px 0;
+}
+
+/* ------------NAV------------- */
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu a{
+    border-bottom: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-left: 24px;
+}
+
+/* ------------HERO SECTION------------- */
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+}
+
+.hero .left {
+    background-image: url(img/viagem.webp);
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero .right {
+    background-color: #d5ad5f;
+}
+
+.hero .content-box {
+    position: absolute;
+    background-color: #fffffc;
+    padding: 32px;
+    width: 35%;
+    top: 50%;
+    left: 65%;
+    transform: translate(-40%,-50%);
+}
+
+/*-------------Galery--------------*/
+main {
+    display: grid;
+    grid-template-columns:2fr;
+    margin-top: 15px;
+    grid-gap: 60px;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px;
+}
+
+.galery .thubnail {
+    object-fit: contain;
+}
+.galery-content {
+    background-color: #b8b2b2;
+    margin: 24px 0;
+    padding: 16px;
+}
+
+/* -----------ASIDE-------------*/
+
+.thumb {
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    object-position: center;
+}
+
+@media (max-width: 720px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .galery {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+fieldset {
+    margin: 1px;
+    padding: 10px;
+    border: solid 2px #b96d6d;
+    min-width: 200px;
+}
+
+legend {
+    font-size: 25px;
+    padding: 0 1.25px;
+    color: #d5ad5f;
+}
+
+input[type="submit"]{
+    background-color: #000000;
+    color: #d5ad5f;
+    border-radius: 12px;
+    border-color: #000000;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: var(--secondary-color);
+    text-align: center;
+}
+

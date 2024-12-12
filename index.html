@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Murilo Portela">
+    <meta name="title" content="Agência Roma" />
+    <meta name="description" content="Agência de Viagens" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mogrilo.github.io/trabalhoHtmlCSS3/" />
+    <meta property="og:title" content="Agência Roma" />
+    <meta property="og:description" content="Agência de Viagens" />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mogrilo.github.io/trabalhoHtmlCSS3/" />
+    <meta property="twitter:title" content="Agência Roma" />
+    <meta property="twitter:description" content="Agência de Viagens" />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+    <title>Agência Roma</title>
+</head>
+<body>
+    <header>
+        <div class="site-container">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="#">Agência Roma</a>
+        
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Serviços</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <section class="hero">
+            <div class="left"></div>           
+            <div class="right">
+                <div class="content-box">
+                    <span> O que está esperando?</span>
+                    <h1> Garanta já a viagem dos seus sonhos!</h1>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="site-container">
+
+                <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active c-item">
+                        <img src="img/bahamas.webp" class="d-block w-100 c-img" alt="bahamas1">
+                        <div class="carousel-caption top-0 mt-5">
+                            <h2 class="mt-5 fs-1 ">BAHAMAS</h2>
+                            <h2>Descubra novas possibilidades!</h2>
+                          </div>
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="img/bali.webp" class="d-block w-100 c-img" alt="bali2">
+                        <div class="carousel-caption top-0 mt-5">
+                            <h2 class="mt-5 fs-1 ">BALI</h2>
+                            <h2>Descubra novas possibilidades!</h2>
+                          </div>
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="img/NY.webp" class="d-block w-100 c-img" alt="NY3">
+                        <div class="carousel-caption top-0 mt-5">
+                            <h2 class="mt-5 fs-1 ny">NOVA IORQUE</h2>
+                            <h2>Descubra novas possibilidades!</h2>
+                          </div>
+                      </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                  </div>
+
+
+                <div class="galery">
+
+                    <div class="modal" id="alemanha" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Alemanha - Berlim</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="img/Alemanha.webp" alt="Alemanha" class="modal-img">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="italia" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Itália - Roma</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="img/Roma.webp" alt="Roma" class="modal-img">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="colombia" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Colombia - Cartagena</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="img/cartagena.webp" alt="cartagena" class="modal-img">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="portugal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Portugal - Lisboa</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="img/lisboa.webp" alt="Portugal" class="modal-img">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="franca" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">França - Paris</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="img/paris.webp" alt="Franca" class="modal-img">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="grecia" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Grécia - Santorini</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="img/santorini.webp" alt="Grécia" class="modal-img">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="galery-content">
+                        <div class="thubnail">
+                                <img onclick="abrirModalAlemanha()" src="img/Alemanha.webp" alt="Alemanha">
+                        </div>
+                        <div class="offer">
+                            <span>Alemanha</span>
+                            <h3> Berlim</h3>
+                            <p>3 dias & 3 noites com tudo pago!</p>
+                            <a href=""> Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="galery-content">
+                        <div class="thubnail">
+                            <img onclick="abrirModalItalia()" src="img/Roma.webp" alt="Roma">
+                        </div>
+                        <div class="offer">
+                            <span>Itália</span>
+                            <h3> Roma</h3>
+                            <p>5 dias & 4 noites com tudo pago!</p>
+                            <a href=""> Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="galery-content">
+                        <div class="thubnail">
+                            <img onclick="abrirModalColombia()" src="img/cartagena.webp" alt="cartagena">
+                        </div>
+                        <div class="offer">
+                            <span>Colombia</span>
+                            <h3> Cartagena das Índias</h3>
+                            <p>7 dias & 7 noites com tudo pago!</p>
+                            <a href=""> Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="galery-content">
+                        <div class="thubnail">
+                            <img onclick="abrirModalPortugal()" src="img/lisboa.webp" alt="Portugal">
+                        </div>
+                        <div class="offer">
+                            <span>Portugal</span>
+                            <h3> Lisboa</h3>
+                            <p>4 dias & 4 noites com tudo pago!</p>
+                            <a href=""> Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="galery-content">
+                        <div class="thubnail">
+                            <img onclick="abrirModalFranca()" src="img/paris.webp" alt="Paris">
+                        </div>
+                        <div class="offer">
+                            <span>França</span>
+                            <h3> Paris</h3>
+                            <p>3 dias & 3 noites com tudo pago!</p>
+                            <a href=""> Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <div class="galery-content">
+                        <div class="thubnail">
+                            <img onclick="abrirModalGrecia()" src="img/santorini.webp" alt="Santorini">
+                        </div>
+                        <div class="offer">
+                            <span>Grécia</span>
+                            <h3> Santorini</h3>
+                            <p>4 dias & 4 noites com tudo pago!</p>
+                            <a href=""> Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <aside>
+                    <div class="forms">
+                        <div class="wrapper">
+                            <div class="content">
+                                <form>
+                                    <fieldset>
+                                        <legend>Entre em contato conosco</legend>
+                                        <div>
+                                            <label for="email"> Nome:</label><br>
+                                            <input type="text">
+                                        </div>
+                                        <div>
+                                            <label for="email"> E-mail:</label><br>
+                                            <input type="email" id="email" name="email"><br>
+                                        </div>
+                                        <div>
+                                            <label for="telefone">Telefone:</label><br>
+                                            <input type="tel" id="telefone" name="telefone">
+                                        </div>
+                                        <p>Concorda em notificações de ofertas?</p>
+                                        <div class="radio">
+                                            <input type="radio" id="s" name="simOuNao" value="Sim">
+                                            <label for="s">Sim</label><br>
+                                            <input type="radio" id="n" name="simOuNao" value="Não">
+                                            <label for="n">Não</label><br>
+                                        </div>
+                                        <p>Quais tipos de ofertas?</p>
+                                        <div>
+                                            <input type="checkbox" id="veiculo1" name="veiculo1" value="Bike">
+                                            <label for="veiculo1"> Viagens nacionais</label><br>
+                                            <input type="checkbox" id="veiculo2" name="veiculo2" value="Carro">
+                                            <label for="veiculo2"> Viagens Internacionais</label><br>
+                                        </div>
+                                    <div>
+                                        <input type="submit" value="  Enviar  "/>
+                                    </div>
+                                </fieldset>
+                                </form>
+                            <br>
+                            </div>
+                            <div class="thumb">
+                                <img src="img/viagens.webp" alt="praia">
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <p>Confira outras opções de viagem!</p>
+
+                <table id="tabela" class="table table-striped" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>País</th>
+                            <th>Cidade</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rússia</td>
+                            <td>Moscow</td>
+                            <td>$320,800</td>
+                        </tr>
+                        <tr>
+                            <td>Argentina</td>
+                            <td>Buenos Aires</td>
+                            <td>$170,750</td>
+                        </tr>
+                        <tr>
+                            <td>EUA</td>
+                            <td>Tampa</td>
+                            <td>$86,000</td>
+                        </tr>
+                        <tr>
+                            <td>Brasil</td>
+                            <td>Fernando de Noronha</td>
+                            <td>$433,060</td>
+                        </tr>
+                        <tr>
+                            <td>Japão</td>
+                            <td>Osaka</td>
+                            <td>$162,700</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>País</th>
+                            <th>Cidade</th>
+                            <th>Preço</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        Agência Roma. Todos os direitos reservados.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
